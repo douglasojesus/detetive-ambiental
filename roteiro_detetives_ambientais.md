@@ -3,7 +3,8 @@
 
 **Disciplina:** BIO 606 – Educação Ambiental (2026.2)  
 **Cenário:** Vila das Águas e Rio das Pedras  
-**Gênero:** jogo 2D de investigação socioambiental, com exploração point-and-click  
+**Gênero:** jogo 2D de investigação socioambiental, com exploração point-and-click, gestão de tempo e escolhas com consequências  
+**Número de participantes:** 1 jogador (ou um grupo jogando junto, discutindo cada decisão)  
 **Abordagem pedagógica:** Educação Ambiental Crítica e Justiça Socioambiental
 
 ---
@@ -16,9 +17,9 @@ Nas proximidades está instalada a Vale das Pedras S.A., uma indústria que repr
 
 A situação é complexa. Parte da população depende economicamente da fábrica; trabalhadores têm medo de perder seus empregos; moradores relatam problemas associados à água; denúncias não recebem resposta; e a fiscalização municipal parece não avançar.
 
-O jogador assume o papel de um investigador que percorre a vila, conversa com moradores, examina objetos e documentos e reúne informações para compreender o que está acontecendo.
+O jogador assume o papel de um investigador que tem **três dias** para percorrer a vila, conversar com moradores, examinar objetos e documentos e reunir provas antes de uma **audiência pública**.
 
-A investigação não deve se limitar a descobrir quem poluiu o rio. O objetivo é compreender as relações econômicas, políticas e sociais que contribuem para a degradação ambiental e pensar em respostas coletivas para o problema.
+A investigação não deve se limitar a descobrir quem poluiu o rio. O objetivo é compreender as relações econômicas, políticas e sociais que contribuem para a degradação ambiental e decidir que respostas coletivas dar ao problema. **As decisões do jogador levam a cinco finais diferentes.**
 
 ## 2. Objetivos da experiência
 
@@ -29,279 +30,252 @@ Ao longo da investigação, o jogador deverá:
 3. Identificar a relação entre a atividade industrial, o trabalho e a dependência econômica local.
 4. Examinar a atuação do poder público e os limites da fiscalização.
 5. Conhecer as denúncias e formas de organização dos moradores.
-6. Reunir seis evidências principais para fundamentar uma interpretação da situação.
+6. Reunir seis evidências principais e usá-las para desmentir o discurso oficial em uma audiência pública.
+7. Decidir quem é responsável e que encaminhamento dar ao caso, considerando o rio, os trabalhadores e a renda da vila.
 
 ## 3. Personagens e instituições
 
 ### 3.1. Jogador — Detetive Ambiental
 
-É responsável por explorar o cenário, observar os elementos da vila, conversar com personagens e reunir evidências. Não recebe todas as respostas de imediato: precisa comparar diferentes fontes de informação.
+Explora o cenário, observa os elementos da vila, conversa com personagens e reúne evidências. Não recebe todas as respostas de imediato: precisa comparar fontes, escolher bem as perguntas e administrar o tempo.
 
 ### 3.2. Dona Francisca — pescadora e moradora ribeirinha
 
-Representa as famílias que dependem diretamente do rio para sobreviver. Seu depoimento apresenta os efeitos da contaminação sobre a pesca, a renda e a vida cotidiana.
+Representa as famílias que dependem diretamente do rio. Fica na margem durante o dia. Seu depoimento mostra os efeitos da contaminação sobre a pesca, a renda, a saúde e o pertencimento ao território.
 
-### 3.3. Trabalhador da fábrica
+### 3.3. Seu Jair — operário da fábrica
 
-Conhece práticas internas da indústria, mas teme denunciar as irregularidades e perder o emprego. Seu relato evidencia a situação de vulnerabilidade de quem depende economicamente da empresa.
+Conhece as práticas internas da indústria, mas teme perder o emprego. De dia, trabalha no portão da fábrica e se recusa a falar; à noite, espera o ônibus depois do turno. **Só conta o que sabe se confiar no jogador.** Atitudes acusatórias fazem com que ele vá embora.
 
-### 3.4. Moradores e comerciantes
+### 3.4. Dona Lúcia — presidente da Associação de Moradores
 
-Apresentam outros efeitos da degradação, como a queda nas vendas, a perda de renda e a dependência econômica da fábrica.
+Reúne as denúncias da comunidade. Pode entregar o dossiê de mobilização, garantir sigilo a testemunhas e levar a Associação à audiência pública.
 
-### 3.5. Vale das Pedras S.A.
+### 3.5. Moradores e comerciantes
 
-Empresa instalada nas proximidades do rio. Divulga sua importância para a economia local e afirma gerar centenas de empregos. As evidências encontradas levantam suspeitas sobre suas práticas de descarte e suas decisões de redução de custos.
+- **Seu Antônio** (Mercadinho): a queda nas vendas e a dependência econômica da fábrica.
+- **Rafael** (ponto de ônibus): a "armadilha" de depender da empresa que polui.
+- **Seu Zé** (bar): sabe do processo de fiscalização engavetado na Prefeitura.
 
-### 3.6. Prefeitura
+### 3.6. Vale das Pedras S.A.
 
-Instituição responsável pela administração municipal e pela fiscalização ambiental. Os documentos encontrados indicam que um processo de fiscalização foi paralisado.
+Empresa instalada às margens do rio. Divulga sua importância para a economia local. Na audiência, é representada pelo **Dr. Mendonça**, diretor jurídico.
 
-### 3.7. Associação de Moradores
+### 3.7. Prefeitura
 
-Organização comunitária que reúne denúncias, reivindicações e iniciativas coletivas para exigir providências dos órgãos públicos.
+Responsável pela administração municipal e pela fiscalização ambiental. Na audiência, é representada pelo **Sr. Valdemar**, secretário municipal de Meio Ambiente.
 
-## 4. Estrutura geral da partida
+### 3.8. Associação de Moradores
+
+Organização comunitária que reúne denúncias, reivindicações e iniciativas coletivas.
+
+## 4. Regras e estrutura da partida
 
 ### Etapa 1 — Início
 
-Na tela inicial, o jogador encontra o título **Detetives Ambientais: Por Trás da Degradação** e pode iniciar a investigação, consultar as instruções ou acessar os créditos.
+Na tela inicial, o jogador pode iniciar a investigação, consultar as instruções (**Como Jogar**) ou acessar os créditos. Uma breve introdução apresenta o caso e o prazo de três dias.
 
 ### Etapa 2 — Exploração da Vila das Águas
 
-O cenário apresenta a comunidade, o rio, a fábrica, os equipamentos públicos e os espaços de convivência. O jogador pode clicar nos objetos e personagens para examiná-los.
+O cenário mostra a comunidade, o rio, a fábrica, os equipamentos públicos e os espaços de convivência. Ao passar o mouse, o jogador vê o nome de cada elemento e quanto custa examiná-lo.
 
-Os elementos investigáveis estão divididos em quatro categorias:
+Os elementos investigáveis se dividem em quatro categorias:
 
-- **Evidências principais:** seis registros indispensáveis para liberar a etapa final.
-- **Informações secundárias:** elementos que ampliam a compreensão da situação.
-- **Curiosidades locais:** informações sobre a história, a cultura e a memória da vila.
-- **Objetos comuns:** elementos cotidianos que tornam a exploração mais detalhada.
+- **Evidências principais:** seis provas, necessárias para convocar a audiência.
+- **Informações secundárias:** ampliam a compreensão e podem servir de argumento parcial na audiência.
+- **Curiosidades locais:** história, cultura e memória da vila.
+- **Objetos comuns:** elementos cotidianos que tornam a exploração mais rica.
 
-A ordem de descoberta é livre. As seis evidências principais podem ser encontradas em qualquer sequência.
+### Etapa 3 — Tempo: três dias, dia e noite
 
-### Etapa 3 — Registro das descobertas
+- A investigação dura **3 dias**. Cada dia tem um período de **DIA (5 ações)** e um de **NOITE (3 ações)**.
+- Examinar algo **novo** gasta **1 ação** (evidências, informações secundárias e curiosidades). **Objetos comuns e rever registros não gastam ações.** Conversar de novo com alguém também é grátis.
+- Quando as ações acabam, o período avança. O jogador também pode adiantar o tempo com o botão **Esperar a noite / Dormir**.
+- **De dia**, Prefeitura, escola e mercadinho funcionam. **À noite**, eles fecham, mas certas coisas só acontecem no escuro: a tubulação despeja efluentes, um caminhão-tanque sai às escondidas da fábrica e o operário pode conversar longe do supervisor.
+- Tentar examinar algo indisponível mostra uma dica e **não gasta ações**.
+- Como o tempo não basta para examinar tudo, o jogador precisa **priorizar**.
 
-As descobertas são registradas na mochila do jogador. A mochila permite consultar evidências, informações secundárias e curiosidades já examinadas.
+### Etapa 4 — Pistas encadeadas
 
-O HUD apresenta o progresso da investigação, a quantidade de evidências encontradas, o nível e a experiência acumulada.
+Algumas evidências dependem de outras descobertas:
 
-### Etapa 4 — Desafios
+| Evidência | O que é preciso antes |
+|---|---|
+| Processo na Prefeitura | Descobrir o número do processo conversando com Seu Zé, no bar. Só de dia. |
+| Tubulação de descarte | Voltar à noite, quando o despejo acontece. |
+| Depoimento de Seu Jair | Conversar à noite e conquistar a confiança dele (empatia e garantia de sigilo). |
+| Memorando da diretoria | Seu Jair só revela como chegar ao documento se tiver **confiança total**, o que exige a garantia de sigilo da **Associação de Moradores**. O escritório só pode ser examinado de dia. |
 
-Os desafios complementares propõem que o jogador interprete as informações reunidas, em vez de apenas coletá-las. Eles devem funcionar como atividades independentes da exploração principal.
+### Etapa 5 — Conversas com escolhas
 
-### Etapa 5 — Decisão final
+Nas conversas, o jogador escolhe o que perguntar ou dizer. Algumas perguntas só aparecem depois de outras descobertas (por exemplo, mostrar o laudo da tubulação a Dona Francisca). As escolhas podem revelar pistas, registrar evidências, mudar a confiança do personagem ou mobilizar a comunidade. Tudo fica transcrito na mochila.
 
-Depois de encontrar as seis evidências principais, o jogador pode avançar para a etapa de decisão. Nesse momento, deverá interpretar o conjunto de informações e refletir sobre as responsabilidades envolvidas e as possíveis respostas ao problema.
+### Etapa 6 — Mochila e desafios
 
-### Etapa 6 — Encerramento
+A mochila guarda evidências, informações, curiosidades, conversas, **objetivos** e **conquistas**. Os **desafios de interpretação** não gastam tempo, dão XP e **+1 de preparo** para a audiência cada um.
 
-O encerramento retoma a ideia central do jogo: a justiça ambiental depende da responsabilização dos agentes envolvidos, da participação social e de mudanças nas condições que produzem a degradação.
+### Etapa 7 — Audiência pública
 
-> **Nota sobre a implementação:** na versão do código analisada, a etapa final está simplificada: após reunir as seis evidências, o jogador acessa uma tela de decisão e, em seguida, uma mensagem única de encerramento. O código ainda não implementa cinco finais diferentes ou escolhas com consequências distintas.
+Com as seis evidências, o jogador pode **convocar a audiência pública**. **Se o prazo acabar antes, a audiência acontece de qualquer forma**, com o que o jogador tiver reunido.
+
+Representantes da empresa e da Prefeitura fazem seis alegações. Para cada uma, o jogador apresenta um registro da mochila:
+
+| Resposta | Credibilidade |
+|---|---:|
+| Evidência que desmente a alegação | +2 |
+| Informação secundária relacionada (argumento parcial) | +1 |
+| Não contestar | 0 |
+| Registro sem relação | −1 |
+
+Bônus de preparo: +1 por desafio concluído e +1 se a Associação de Moradores estiver presente. Quanto mais a comunidade foi mobilizada, mais cheia fica a Câmara.
+
+### Etapa 8 — Dossiê final e encerramento
+
+O jogador responde a três perguntas:
+
+1. **Quem é responsável?** (os operários / a diretoria da empresa / a empresa e o poder público / ninguém, foi acidente)
+2. **O que fazer com as provas?** (Ministério Público junto com a Associação / redes sociais / acordo sigiloso com a diretoria / fechamento imediato da fábrica)
+3. **E os trabalhadores e a renda da vila?** (expor a testemunha / proteger a testemunha e exigir transição justa / ignorar a questão)
+
+A combinação das respostas, a credibilidade obtida na audiência e o número de evidências definem o final (seção 11).
 
 ## 5. As seis evidências principais
 
-As seis evidências constituem o núcleo da investigação. Todas são necessárias para liberar a etapa final.
+### Evidência 1 — Memorando interno da diretoria
 
-### Evidência 1 — Relatório interno da fábrica
-
-**Local:** escritório da fábrica, região superior direita do cenário.  
-**Objeto investigável:** documento interno da diretoria.
-
-**Conteúdo apresentado:**
+**Local:** escritório (prédio "Administração") da fábrica, região superior direita.  
+**Como obter:** de dia, depois que Seu Jair revela que a porta dos fundos fica aberta na troca de turno.
 
 > MEMORANDO INTERNO — DIRETORIA EXECUTIVA  
 >
 > “Diante da necessidade de maximizar lucros, fica aprovada a redução de 65% nos custos operacionais da Estação de Tratamento. Eventuais multas devem ser tratadas como risco calculado, pois são inferiores ao custo de tratamento.”
 
-**O que revela:** a diretoria aprovou a redução dos custos destinados ao tratamento de resíduos, considerando possíveis multas como um custo menor do que manter o tratamento adequado.
-
+**O que revela:** a poluição foi uma decisão econômica da diretoria.  
 **Discussão proposta:** prioridade do lucro, responsabilidade empresarial e externalização dos custos ambientais.
 
 ### Evidência 2 — Laudo técnico da tubulação de descarte
 
-**Local:** margem do rio, lado direito do cenário, próxima à área industrial.  
-**Objeto investigável:** tubulação de descarte.
-
-**Conteúdo apresentado:**
+**Local:** saída de concreto na margem do rio, abaixo da fábrica.  
+**Como obter:** à noite, quando o despejo acontece. O jogador coleta uma amostra e recebe o laudo. De dia, a tubulação está seca.
 
 > LAUDO TÉCNICO DE INSPEÇÃO  
 >
 > “Identificada tubulação subterrânea lançando efluentes sem tratamento no rio. Amostras atestam metais pesados 14x acima do limite. A descarga ocorre à noite para burlar fiscalização visual.”
 
-**O que revela:** há registro técnico de lançamento de efluentes sem tratamento no rio, com concentração de metais pesados acima do limite indicado no próprio laudo.
-
 **Discussão proposta:** poluição industrial, monitoramento ambiental e responsabilidade pelo descarte de resíduos.
 
 ### Evidência 3 — Depoimento de Dona Francisca
 
-**Local:** comunidade ribeirinha, parte inferior esquerda do cenário.  
-**Personagem:** Dona Francisca, pescadora.
+**Local:** margem do rio, ao lado da casa dela (somente de dia).  
+**Como obter:** perguntando sobre a pesca ou sobre a saúde da família.
 
-**Diálogos disponíveis:**
+Diálogos: "O que aconteceu com a pesca?", "Alguém da família adoeceu?", "A prefeitura ajudou?", "Por que a senhora não se muda daqui?" e, depois de obter o laudo, "Mostrar o laudo da tubulação" (que mobiliza os pescadores para a audiência).
 
-**Pergunta:** O que aconteceu com a pesca?  
-**Resposta:** “De uns meses pra cá, a água ficou pesada, com cheiro químico. Os peixes boiaram mortos. A gente não tem mais como tirar sustento daqui.”
+**Discussão proposta:** desigualdade socioambiental, vulnerabilidade, território e distribuição desigual dos danos.
 
-**Pergunta:** Alguém adoeceu?  
-**Resposta:** “Minha neta começou com feridas vermelhas na pele. Nós somos pobres, dependemos do rio e ficamos presos na contaminação.”
+### Evidência 4 — Depoimento de Seu Jair, operário
 
-**Pergunta:** A prefeitura ajudou?  
-**Resposta:** “Só promessas. Eles vêm aqui em época de eleição, mas na hora de enfrentar a fábrica, todos somem.”
+**Local:** ponto de ônibus, somente à noite.  
+**Como obter:** ganhar a confiança dele (nível 2 de 3) com empatia e promessa de sigilo e então perguntar sobre os despejos.
 
-**O que revela:** a degradação afeta a pesca, a renda e a vida cotidiana de famílias que dependem do rio. O depoimento também expressa a percepção de abandono pelo poder público.
+> “Todo mundo no chão de fábrica sabe. A ordem vem direto da gerência. Desligam os filtros de madrugada. Se a gente falar, é rua.”
 
-**Discussão proposta:** desigualdade socioambiental, vulnerabilidade e distribuição desigual dos danos ambientais.
-
-### Evidência 4 — Depoimento de trabalhador da fábrica
-
-**Local:** área industrial, próximo à fábrica.  
-**Personagem:** trabalhador da indústria.
-
-**Diálogos disponíveis:**
-
-**Pergunta:** Você sabe sobre os despejos?  
-**Resposta:** “Todo mundo no chão de fábrica sabe. A ordem vem direto da gerência. Desligam os filtros de madrugada.”
-
-**Pergunta:** Por que ninguém denuncia?  
-**Resposta:** “Se a gente falar, é rua. ‘Tem cem na porta querendo sua vaga’, eles dizem. Ficamos reféns do medo do desemprego.”
-
-**Pergunta:** Vocês não se organizam?  
-**Resposta:** “É difícil. A empresa usa nossa necessidade contra nós. Ameaçam fechar a fábrica se houver pressão ambiental.”
-
-**O que revela:** o trabalhador relata que as irregularidades seriam conhecidas internamente, mas que o medo do desemprego dificulta as denúncias.
-
-**Discussão proposta:** dependência econômica, relações de trabalho, medo de retaliação e limites da liberdade de denúncia.
+**Discussão proposta:** dependência econômica, relações de trabalho, medo de retaliação e proteção de quem denuncia.
 
 ### Evidência 5 — Processo de fiscalização municipal
 
-**Local:** prefeitura, região superior esquerda do cenário.  
-**Objeto investigável:** documento no arquivo municipal.
-
-**Conteúdo apresentado:**
+**Local:** Prefeitura, região superior esquerda (somente de dia).  
+**Como obter:** com o número do processo (402), descoberto no bar, o jogador pede vista do processo com base na Lei de Acesso à Informação.
 
 > PROCESSO DE FISCALIZAÇÃO PARALISADO Nº 402/26  
 >
-> “Auto de infração propondo interdição cautelar. Processo retido no gabinete com parecer: ‘Aguardando oportunidade oportuna devido ao impacto na arrecadação tributária’. Anexos mostram doações da empresa para campanhas.”
+> “Auto de infração propondo interdição cautelar. Processo retido no gabinete com parecer: 'Aguardando momento oportuno devido ao impacto na arrecadação tributária'. Anexos mostram doações da empresa para campanhas.”
 
-**O que revela:** um processo de fiscalização que propunha uma medida cautelar foi paralisado. O documento também menciona doações da empresa para campanhas.
+**Discussão proposta:** responsabilidade do poder público, influência econômica e conflitos de interesse.
 
-**Discussão proposta:** responsabilidade do poder público, influência econômica, fiscalização e conflitos de interesse.
+### Evidência 6 — Dossiê da Associação de Moradores
 
-### Evidência 6 — Dossiê da associação de moradores
-
-**Local:** associação de moradores, região central do cenário.  
-**Objeto investigável:** dossiê comunitário.
-
-**Conteúdo apresentado:**
+**Local:** porta da Associação de Moradores (Dona Lúcia, somente de dia).
 
 > DOSSIÊ DE MOBILIZAÇÃO  
 >
-> “Compilado de 14 ofícios enviados aos órgãos públicos sem resposta. A comunidade formou um comitê autônomo para exigir saneamento e responsabilização, demonstrando que a solução passa pela união popular.”
+> “Compilado de 14 ofícios enviados aos órgãos públicos sem resposta. A comunidade formou um comitê autônomo para exigir saneamento e responsabilização.”
 
-**O que revela:** a comunidade já realizou diversas denúncias e buscou os órgãos públicos. Diante da ausência de respostas, organizou um comitê para reivindicar providências.
-
-**Discussão proposta:** participação social, organização coletiva, mobilização comunitária e direito ao meio ambiente equilibrado.
+**Discussão proposta:** participação social, organização coletiva e direito ao meio ambiente equilibrado.
 
 ## 6. Informações secundárias
 
-As informações secundárias não são necessárias para liberar a decisão final, mas ampliam a compreensão do contexto.
-
-| Elemento | Local/posição aproximada | Informação apresentada |
+| Elemento | Disponível | Informação apresentada |
 |---|---|---|
-| Mercadinho local | Região central esquerda | O comerciante relata queda nas vendas porque as famílias ligadas à pesca perderam renda. |
-| Mural da escola | Região superior esquerda da comunidade | Desenhos de crianças representam o rio escuro e peixes mortos. |
-| Aviso no posto de saúde | Próximo ao posto de saúde | Comunicado recomenda evitar o uso da água do rio diante do aumento de casos de dermatite e viroses. |
-| Outdoor da fábrica | Próximo à área industrial | A empresa divulga a geração de 500 empregos diretos e se apresenta como motor do desenvolvimento local. |
-| Ponto de ônibus | Região central | Um trabalhador afirma que a comunidade reclama da poluição, mas depende da fábrica para sobreviver. |
-| Pequena plantação | Parte inferior esquerda | Horta comunitária que deixou de utilizar água do rio para irrigação. |
-| Bar da comunidade | Região central | Moradores discutem a falta de ação da prefeitura e a relação entre o poder público e a fábrica. |
-| Quadro de empregos | Próximo à fábrica | Anúncio de vagas com salários baixos e grande quantidade de candidatos. |
-| Barco abandonado | Parte inferior central | Barco sem uso há meses, associado à redução da pesca. |
-| Placa de área verde | Região inferior direita | Placa antiga de Área de Preservação Permanente em local atualmente degradado. |
+| Seu Antônio (Mercadinho) | Dia | Queda nas vendas e dependência da vila em relação à fábrica. |
+| Mural da escola | Dia | Desenhos de crianças com o rio escuro e peixes tristes. |
+| Aviso no posto de saúde | Sempre | Recomenda evitar a água do rio por causa de dermatites e viroses. |
+| Outdoor da fábrica | Sempre | "O motor do desenvolvimento": 500 empregos, nenhuma palavra sobre o rio. |
+| Rafael (ponto de ônibus) | Dia | A comunidade reclama da poluição, mas depende da fábrica. |
+| Horta comunitária | Sempre | Não usa água do rio, mas as folhas estão amareladas. |
+| Seu Zé (bar) | Sempre | Fala do prefeito e revela o número do processo de fiscalização. |
+| Quadro de empregos | Sempre | Salários baixos e fila enorme de candidatos. |
+| Barco "Esperança" | Sempre | Barco encalhado há meses por falta de peixe. |
+| Placa de APP | Sempre | Área de Preservação Permanente desmatada e cheia de lixo. |
+| Caminhão-tanque | Noite | Caminhão sem identificação sai às escondidas da fábrica. |
 
 ## 7. Curiosidades locais
 
-As curiosidades ajudam a apresentar a história, a memória e a cultura de Vila das Águas.
-
 | Elemento | Informação apresentada |
 |---|---|
-| Placa do Rio | O nome Rio das Pedras teria surgido no século XIX, em referência às rochas que formavam piscinas naturais. |
-| Árvore centenária | Os moradores mais antigos contam que as primeiras reuniões comunitárias aconteciam sob uma grande figueira. |
-| Pedra fundamental | Placa registra a fundação de Vila das Águas por pescadores artesanais em 1952, antes da chegada da indústria. |
-| Cachorro caramelo | Um cão comunitário descansa pela vila, compondo a paisagem cotidiana. |
-| Traves de futebol | Restos de um campo onde as crianças deixaram de jogar devido à degradação das margens. |
-| Mural da festa | Cartazes antigos da Festa de São Pedro, ligada à tradição dos pescadores. |
-| Flor do deserto | Vaso de Kalanchoe cuidado por um morador com adubo natural. |
-| Fotografia antiga | Foto no bar mostra pescadores com redes cheias, lembrando um período de maior abundância. |
+| Placa do Rio | O nome Rio das Pedras vem das rochas que formavam piscinas naturais. |
+| Árvore centenária | As primeiras reuniões comunitárias aconteciam sob uma grande figueira. |
+| Pedra fundamental | A vila foi fundada por pescadores em 1952, antes da indústria. |
+| Cachorro caramelo | Um cão comunitário cuidado por toda a vila. |
+| Campo de futebol | As crianças pararam de jogar por causa das margens degradadas. |
+| Cartazes da festa | A Festa de São Pedro perdeu força pela falta de peixe. |
+| Flor na janela | Vaso de Kalanchoe cuidado com adubo natural. |
+| Fotografia antiga | Pescadores com redes cheias, um passado de abundância. |
 
 ## 8. Objetos comuns
 
-Os objetos comuns não apresentam evidências centrais, mas tornam o cenário mais explorável e ajudam a construir a ambientação.
-
-- Lixeira cheia, indicando problemas na coleta de resíduos.
-- Banco de praça desgastado.
-- Bicicleta antiga, utilizada como meio de transporte.
-- Poste com fios emaranhados e lâmpada queimada.
-- Caixa de ferramentas dos operários.
-- Carrinho de mão utilizado na horta.
-- Placa de trânsito enferrujada.
-- Tambores industriais vazios no pátio da fábrica.
-- Caixotes de madeira próximos ao mercadinho.
-- Telefone público antigo e sem funcionamento.
+Lixeira cheia, banco da praça, bicicleta, poste com lâmpada queimada, caixa de ferramentas perto de um bueiro (por onde passa um cano rumo ao rio), carrinho de mão, placa de trânsito, tambores industriais largados na margem, caixotes, telefone público e, à noite, as luzes da fábrica funcionando enquanto a estação de tratamento fica apagada.
 
 ## 9. Desafios de interpretação
 
-Os desafios complementam a investigação e estimulam a leitura crítica das informações.
+Os desafios estimulam a leitura crítica das informações. Ficam salvos durante a partida e dão XP uma única vez.
 
-A proposta é que o jogador não apenas encontre documentos, mas consiga interpretar o que eles indicam, reconhecer contradições e relacionar diferentes dimensões do problema.
+**Linha do tempo:** ordenar seis acontecimentos, da fundação da vila (1952) ao engavetamento da fiscalização. Mostra que o dano resultou de uma decisão econômica tolerada pelo poder público.
 
-**Desafio de análise de discurso:** o jogador examina afirmações e informações encontradas no cenário, identificando contradições entre o discurso público da empresa e os registros reunidos durante a investigação.
+**Análise do discurso:** ligar cada frase do outdoor da empresa à evidência que a desmente. Mostra como a propaganda institucional esconde os custos socioambientais.
 
-**Desafio de organização temporal:** o jogador organiza acontecimentos ou registros em uma sequência coerente, de modo a compreender como decisões, denúncias e impactos se relacionam ao longo do tempo.
-
-A descrição acima registra a finalidade pedagógica dos desafios. A configuração exata das perguntas e alternativas deve ser conferida na implementação correspondente.
+**Mapa de atores:** classificar empresa, pescadores, operários, comerciantes, Prefeitura e Associação em "quem lucra", "quem sofre os danos", "quem deveria fiscalizar" e "quem se organiza". Trabalha o conceito de injustiça ambiental.
 
 ## 10. Gamificação
 
-A exploração concede pontos de experiência (XP):
-
 | Ação | XP |
 |---|---:|
-| Encontrar uma evidência principal | 100 |
+| Obter uma evidência principal | 100 |
+| Concluir um desafio | 100 |
 | Encontrar uma informação secundária | 40 |
 | Descobrir uma curiosidade | 20 |
 | Examinar um objeto comum | 5 |
 
-Os níveis previstos são:
+Níveis: **Observador**, **Explorador**, **Investigador**, **Analista** e **Detetive Ambiental**.
 
-1. **Observador**
-2. **Explorador**
-3. **Investigador**
-4. **Analista**
-5. **Detetive Ambiental**
+Conquistas: Primeiro Contato, Olhar Atento (10 registros), Explorador da Vila (20 registros), Investigação Completa (6 evidências), Curioso por Natureza (5 curiosidades), Vozes da Comunidade (3 conversas), Coruja (investigar à noite), Confiança Conquistada (confiança total de Seu Jair), Pensamento Crítico (3 desafios), Argumentação Sólida (6 alegações desmentidas) e Justiça Ambiental (melhor final).
 
-As conquistas previstas incluem:
+## 11. Os cinco finais
 
-- **Primeiro Contato:** examinar o primeiro objeto.
-- **Olhar Atento:** examinar 10 objetos.
-- **Explorador da Vila:** examinar 20 objetos.
-- **Investigação Completa:** encontrar as seis evidências principais.
-- **Curioso por Natureza:** descobrir cinco curiosidades.
-- **Vozes da Comunidade:** conversar com três moradores diferentes.
+| Final | Como se chega | Desfecho |
+|---|---|---|
+| **Justiça Socioambiental** | 6 evidências, credibilidade alta (≥ 10), Associação presente, e as respostas "empresa e poder público", "Ministério Público com a Associação" e "transição justa". | Termo de Ajustamento de Conduta, recuperação do rio e da mata ciliar, auxílio aos pescadores, empregos preservados e fiscalização com participação popular. |
+| **Multa como "risco calculado"** | Denúncia correta, mas incompleta: sem a Associação, com credibilidade média, culpando só a empresa ou apostando só nas redes sociais. | A empresa paga uma multa menor que o custo de tratar o efluente, como previa o memorando, e pouco muda. |
+| **Fábrica fechada, vila dividida** | Exigir o fechamento imediato ou ignorar os trabalhadores. | Desemprego em massa, conflito entre operários e pescadores e passivo ambiental abandonado. |
+| **Acordo de bastidores** | Negociar em sigilo com a diretoria ou expor o nome da testemunha. | Seu Jair é demitido, a empresa faz "maquiagem verde" e os despejos continuam. |
+| **Caso arquivado** | Culpar os operários ou "um acidente", ter menos de 4 evidências ou credibilidade muito baixa (< 4). | A denúncia é desmontada e o rio segue escurecendo. |
 
-## 11. Decisão final e reflexão
-
-A etapa final deve levar o jogador a considerar o conjunto da investigação. A contaminação do rio não aparece como um acontecimento isolado: ela está relacionada a decisões empresariais, condições de trabalho, dependência econômica, fiscalização pública e capacidade de organização da comunidade.
-
-A reflexão final deve considerar:
+Ao final, o jogo apresenta perguntas de reflexão ligadas ao desfecho:
 
 - Quem se beneficia economicamente da atividade industrial?
 - Quem sofre os impactos da degradação?
 - Por que os trabalhadores podem ter dificuldade para denunciar irregularidades?
-- Qual é a responsabilidade da empresa?
-- Qual é a responsabilidade do poder público?
+- Qual é a responsabilidade da empresa? E a do poder público?
 - Por que as denúncias e a mobilização dos moradores são importantes?
 - Que medidas podem combinar reparação ambiental, proteção dos trabalhadores e garantia de renda para a população?
 
@@ -319,8 +293,8 @@ A reflexão final deve considerar:
 
 **Docente:** Profa. Viviane Souza Martins.
 
-**Tecnologia:** Python 3 e Pygame.
+**Tecnologia:** Python 3 e Pygame (pygame-ce).
 
-**Uso de inteligência artificial:** IA generativa (Gemini) utilizada parcialmente como ferramenta de apoio à codificação do jogo.
+**Uso de inteligência artificial:** IA generativa (Gemini e Claude) utilizada parcialmente como ferramenta de apoio à codificação do jogo.
 
 **Abordagem pedagógica:** Educação Ambiental Crítica e Justiça Socioambiental.
