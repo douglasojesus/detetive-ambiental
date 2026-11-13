@@ -48,7 +48,7 @@ HOTSPOTS = {
     "lixeira": R(220, 396, 22, 28),
     "foto_bar": R(258, 378, 30, 28),
     "bicicleta": R(372, 398, 36, 26),
-    "flor": R(420, 372, 22, 24),
+    "flor": R(412, 376, 22, 26),
     "cachorro": R(466, 436, 40, 20),
     "arvore": R(518, 296, 78, 126),
     "pedra": R(600, 416, 32, 26),
@@ -78,14 +78,26 @@ PREDIOS = {
     "casa_b": R(410, 365, 72, 55), "casa_francisca": R(290, 505, 80, 55),
 }
 
+def janelas_casa(r):
+    """Janelas das casinhas: uma em cada lateral, sem encostar na porta central."""
+    return [R(r.x + 7, r.y + 15, 14, 14), R(r.right - 21, r.y + 15, 14, 14)]
+
+
+def porta_casa(r):
+    return R(r.centerx - 9, r.bottom - 32, 18, 32)
+
+
+CASA_A = R(10, 365, 72, 55)
+CASA_B = R(410, 365, 72, 55)
+
+
 # Janelas que acendem à noite
 JANELAS = [
     # (Prefeitura e Escola ficam fechadas e apagadas à noite)
     R(818, 172, 16, 12), R(842, 172, 16, 12), R(866, 172, 12, 12),
     R(818, 196, 16, 12), R(842, 196, 16, 12), R(866, 196, 12, 12),   # escritório
-    R(26, 380, 16, 14), R(56, 380, 16, 14),                      # casa A
+    *janelas_casa(CASA_A), *janelas_casa(CASA_B),                # casinhas
     R(336, 386, 16, 12),                                         # bar (vidro da porta)
-    R(426, 380, 16, 14), R(456, 380, 16, 14),                    # casa B
     R(305, 520, 16, 14),                                         # casa de Dona Francisca
 ]
 JANELAS_FABRICA = [R(985 + i * 30, 192, 20, 14) for i in range(5)]
@@ -217,14 +229,16 @@ class ScenarioRenderer:
         self._fabrica(s)
 
         # fileira comunitária (base y=420)
-        self._casa(s, R(10, 365, 72, 55), (190, 150, 110), (150, 60, 45))
+        self._casa(s, CASA_A, (190, 150, 110), (150, 60, 45))
         self._mercadinho(s)
         self._bar(s)
-        self._casa(s, R(410, 365, 72, 55), (200, 180, 130), (140, 70, 50))
-        pygame.draw.rect(s, (150, 80, 60), (420, 389, 22, 7))      # vaso da flor (cur7)
-        pygame.draw.line(s, (60, 130, 60), (431, 389), (431, 380), 2)
-        for dx, dy in [(-4, -10), (0, -14), (4, -10), (0, -8)]:
-            pygame.draw.circle(s, (240, 110, 70), (431 + dx, 389 + dy), 3)
+        self._casa(s, CASA_B, (200, 180, 130), (140, 70, 50))
+        jan = janelas_casa(CASA_B)[0]                                # vaso da flor (cur7) no peitoril
+        vaso_x, vaso_y = jan.centerx, jan.bottom
+        pygame.draw.rect(s, (150, 80, 60), (vaso_x - 8, vaso_y, 16, 6))
+        pygame.draw.line(s, (60, 130, 60), (vaso_x, vaso_y), (vaso_x, vaso_y - 6), 2)
+        for dx, dy in [(-4, -7), (0, -10), (4, -7)]:
+            pygame.draw.circle(s, (240, 110, 70), (vaso_x + dx, vaso_y + dy), 3)
 
         # entre a rua e o rio, lado da fábrica
         self._ponto_onibus(s)
@@ -381,10 +395,11 @@ class ScenarioRenderer:
     def _casa(self, s, r, parede, telhado):
         pygame.draw.rect(s, parede, r)
         pygame.draw.polygon(s, telhado, [(r.x - 8, r.y), (r.centerx, r.y - 30), (r.right + 8, r.y)])
-        pygame.draw.rect(s, (80, 55, 40), (r.centerx - 9 + 14, r.bottom - 32, 18, 32))
-        pygame.draw.rect(s, (110, 150, 180), (r.x + 16, r.y + 15, 16, 14))
-        if r.width > 60:
-            pygame.draw.rect(s, (110, 150, 180), (r.x + 46, r.y + 15, 16, 14))
+        pygame.draw.rect(s, (80, 55, 40), porta_casa(r))
+        pygame.draw.circle(s, (200, 170, 80), (porta_casa(r).right - 4, porta_casa(r).centery), 2)
+        for j in janelas_casa(r):
+            pygame.draw.rect(s, (110, 150, 180), j)
+            pygame.draw.rect(s, (235, 225, 205), j, 1)
 
     def _mercadinho(self, s):
         pygame.draw.rect(s, (150, 190, 160), (95, 350, 120, 70))
