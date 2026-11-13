@@ -1,0 +1,7 @@
+# Ambientes virtuais (cada pessoa cria o seu: veja o README/requirements.txt)
+venv/
+.venv/
+__pycache__/
+*.pyc
+# Imagens geradas pelos scripts de verificação
+scripts/saida/
