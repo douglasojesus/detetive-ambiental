@@ -293,7 +293,7 @@ Ao final, o jogo apresenta perguntas de reflexão ligadas ao desfecho:
 
 **Docente:** Profa. Viviane Souza Martins.
 
-**Tecnologia:** Python 3 e Pygame (pygame-ce).
+**Tecnologia:** Python 3.10+ e Pygame (pygame-ce). As instruções de instalação e execução estão no `README.md`.
 
 **Uso de inteligência artificial:** IA generativa (Gemini e Claude) utilizada parcialmente como ferramenta de apoio à codificação do jogo.
 

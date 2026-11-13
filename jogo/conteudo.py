@@ -431,6 +431,7 @@ COMO_JOGAR = (
     "que você tiver. Lá você deve desmentir as alegações com as provas certas e, por fim, montar o dossiê final. "
     "Suas escolhas levam a 5 finais diferentes.\n\n"
     "DESAFIOS: atividades de interpretação que dão XP e preparo extra para a audiência.\n\n"
+    "TECLAS: M abre a mochila; Esc fecha a janela aberta. A roda do mouse rola textos longos.\n\n"
     "(Clique para voltar)")
 
 CREDITOS = (

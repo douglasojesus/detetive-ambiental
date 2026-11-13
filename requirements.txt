@@ -1,3 +1,4 @@
-# pygame-ce é compatível com "import pygame" e tem builds para Python 3.8 a 3.15.
-# (O pygame original não compila no Python 3.15.)
+# pygame-ce é compatível com "import pygame" e exige Python 3.10 ou mais recente.
+# (O pygame original ainda não tem versão pronta para o Python 3.15.)
+# Não instale "pygame" junto com "pygame-ce" no mesmo ambiente.
 pygame-ce>=2.5
